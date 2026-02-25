@@ -142,6 +142,8 @@ footer {
 
 * {box-sizing:border-box}
 
+
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp <- link to slideshow tutorial */
 /* slideshow-container */
 
 .slideshow-container {
@@ -184,7 +186,7 @@ footer {
 
 /* Caption text */
 .text {
-  color: white;                 /* caption color */
+  color: white;              
   font-size: 1rem;
   font-weight: 600;
   padding: 8px 12px;
