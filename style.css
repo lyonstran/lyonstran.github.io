@@ -184,13 +184,16 @@ footer {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: white;                 /* caption color */
+  font-size: 1rem;
+  font-weight: 600;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6); /* dark translucent background */
+  border-radius: 6px;
 }
 
 /* Number text (1/3 etc) */
