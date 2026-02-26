@@ -3,147 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lyons Tran | Portfolio</title>
+  <title>Lyons Tran | Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
+
   <header>
     <nav>
-      <h1 class="logo">Lyons Tran</h1>
+      <h1 class="logo"><a href="index.html">Lyons Tran</a></h1>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#personals">Personal</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="personal.html">Personal</a></li>
       </ul>
     </nav>
   </header>
-  
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Hi! My name is Lyons, and I am currently a 3rd year university student passionate about data science and analytics.
-    </p>
-  </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Recent Projects</h2>
-    <div class="project-grid">
-      <div class="project">
-        <h3>Voter Bias in AP Top 25 Polls Project</h3>
-        <p>
-          Research project done as an IML scholar in the Fall 2025 school semester. Project looks 
-          at the AP top 25 Football pollsters and explores 
-          various metrics on measuring 'bias' that pollsters may have for or against a certain team. 
-          Here's a link to an interactive Shiny app I made that visualizes the pollsters geographically: 
-          <a href="https://lt21.shinyapps.io/iml-voter-biases-shinyapp/">Voter Biases App</a>
-        </p>
+  <main>
+    <section class="home-hero">
+      <h2>Welcome!</h2>
+      <p>
+        Hi! I’m Lyons. I am a 3rd year university student passionate about data science and analytics.
+        This site is where I share projects I’m proud of and some personal interests.
+      </p>
+
+      <div class="home-buttons">
+        <a class="btn" href="projects.html">See Projects</a>
+        <a class="btn" href="about.html">About Me</a>
+        <a class="btn" href="personal.html">See Personal</a>
       </div>
-      <div class="project">
-        <h3>Kanji Practice App</h3>
-        <p>
-          Interactive Shiny app I made for my Japanese classes. The characters range from the first level course
-          to the fourth level course at my university. 
-          Link to the shiny app: <a href="https://lt21.shinyapps.io/japn_kanji_app/">Kanji Practice App</a>
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Personal -->
-  <section id = "personals">
-    <h2>Personal</h2>
-    <div class="personal-grid">
-      <div class= "personal">
-
-        <h3>Music</h3>
-        <p>
-          I love listening and discovering new music. My favorite genre that I fall back on on 
-          any given day is definetely alternative/indie rock. However, I am very open-minded and love recommendations!
-          Some of my favorite artists include but are not limited to 
-          Elliott Smith, Jeff Buckley, Fiona Apple, Sheena Ringo, The Beatles, and Aphex Twin. Below are my top 5 albums  
-          of all time (subject to NO change):
-        </p> 
-        
-        <div class = "slideshow-container">
-          <!-- add a rotating/static set of images that users can sort through given the albums in the images folder-->
-          <div class = "fading-slides">
-            <div class = "numbertext">1 / 5</div>
-            <img src="images/figure8s.webp" style="width:100%">
-            <div class = "text">Figure 8s - Elliott Smith</div>
-          </div>
-
-          <div class = "fading-slides">
-            <div class = "numbertext">2 / 5</div>
-            <img src="images/grace.jpg" style="width:100%">
-            <div class = "text">Grace - Jeff Buckley</div>
-          </div>
-
-          <div class = "fading-slides">
-            <div class = "numbertext">3 / 5</div>
-            <img src="images/loveless.png" style="width:100%">
-            <div class = "text">Loveless - My Bloody Valentine</div>
-          </div>
-
-          <div class = "fading-slides">
-            <div class = "numbertext">4 / 5</div>
-            <img src="images/wywh.webp" style="width:100%">
-            <div class = "text">Wish You Were Here - Pink Floyd</div>
-          </div>
-
-          <div class = "fading-slides">
-            <div class = "numbertext">5 / 5</div>
-            <img src="images/wlr.jpg" style="width:100%">
-            <div class = "text">Whole Lotta Red - Playboi Carti</div>
-          </div>
-
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-          <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
-
-        <h3>Cats</h3>
-        <p>
-          I LOVE cats, and will forever be a cat person(Dachshund's are the only exception). 
-          Here's a picture of my personal cat, Miu(left), and a picture of me with a random kitty at a Cafe from
-          when I went to Vietnam(right).
-        </p>
-
-        <div class="cat-images">
-            <img src="images/miu_sitted.JPEG" alt="Picture of Miu" class="personal-img">
-            <img src="images/vietnam_cat.JPEG" alt="Picture with a cat in Vietnam" class="personal-img">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Contact/Socials -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:lyonstran21@gmail.com">lyonstran21@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/lyonstran">github.com/lyonstran</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/lyonstranuiuc/">linkedin.com/in/lyonstranuiuc</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Lyons Tran. All rights reserved.</p>
-  </footer>
-
-<script src="script.js"></script>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:lyonstran21@gmail.com">lyonstran21@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/lyonstran">github.com/lyonstran</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/lyonstranuiuc/">linkedin.com/in/lyonstranuiuc</a></p>
+    </section>
+  </main>
 </body>
 </html>

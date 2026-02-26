@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 /* Navbar */
 header {
-  background: #222;
+  background: #046718;
   color: #fff;
   padding: 15px 20px;
 }
@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #ff9800;
+  color: #0f0e0e;
 }
 
 /* Sections */
@@ -95,7 +95,7 @@ h2 {
   margin-bottom: 10px;
 }
 #contact a {
-  color: #ff9800;
+  color: #046718;
   text-decoration: none;
 }
 #contact a:hover {
@@ -232,4 +232,39 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Make logo link look like the original text */
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Optional: highlight current page link */
+.active-link {
+  color: #ff9800 !important;
+}
+
+/* Simple button styling for home page */
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+.home-hero {
+  text-align: center;
+}
+
+.home-buttons {
+  margin-top: 18px;
 }
